@@ -11,7 +11,8 @@ https://github.com/shentianxiao/language-style-transfer
 ## Data Format
 Please name the corpora of two styles by "x.0" and "x.1" respectively, and use "x" to refer to them in options. Each file should consist of one sentence per line with tokens separated by a space.
 
-The <code>data/yelp/</code> directory contains an example Yelp review dataset.
+The <code>data/news/</code> directory contains our bias news dataset.
+Visit [here](https://webis.de/data/webis-bias-flipper-18.html) for more details.
 
 <br>
 
@@ -23,7 +24,7 @@ python style_transfer.py --train ../data/yelp/sentiment.train --dev ../data/yelp
 
 - To test the model, run the following command:
 ```bash
-python style_transfer.py --test ../data/yelp/sentiment.test --output ../tmp/sentiment.test --vocab ../tmp/yelp.vocab --model ../tmp/model --load_model true --beam 8
+python style_transfer.py --test ../data/news/LR+c.test --output ../tmp/LR+c.test --vocab ../tmp/news+c2.vocab --model ../tmp/model.LR+c2 --load_model true --beam 10 
 ```
 
 - To download a trained model, run <code>bash download_model.sh</code>, and then run the testing command with <code>--vocab</code> and <code>--model</code> options specifying <code>../model/yelp.vocab</code> and <code>../model/model</code> respectively.
