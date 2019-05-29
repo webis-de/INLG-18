@@ -1,11 +1,11 @@
 # INLG-18
-The repository for the INLG-18 paper: Learning to Flip the Bias of News Headlines
+The repository for the INLG-18 paper: Learning to Flip the Bias of News Headlines.
 
 The code is mainly from Shen's work: "Style Transfer from Non-Parallel Text by Cross-Alignment". Tianxiao Shen, Tao Lei, Regina Barzilay, and Tommi Jaakkola. NIPS 2017.
 
 The only difference is we implemented the beam search algorithm to remove unknown tokens from the generated texts.
 
-Please [visit](https://github.com/shentianxiao/language-style-transfer) here as well
+Please visit [here](https://github.com/shentianxiao/language-style-transfer) as well
 
 ## Data Format
 Please name the corpora of two styles by "x.0" and "x.1" respectively, and use "x" to refer to them in options. Each file should consist of one sentence per line with tokens separated by a space.
