@@ -7,3 +7,30 @@ The only difference is we implemented the beam search algorithm to remove unknow
 
 Please visit here as well
 https://github.com/shentianxiao/language-style-transfer
+
+## Data Format
+Please name the corpora of two styles by "x.0" and "x.1" respectively, and use "x" to refer to them in options. Each file should consist of one sentence per line with tokens separated by a space.
+
+The <code>data/yelp/</code> directory contains an example Yelp review dataset.
+
+<br>
+
+## Quick Start
+- To train a model, first create a <code>tmp/</code> folder (where the model and results will be saved), then go to the <code>code/</code> folder and run the following command:
+```bash
+python style_transfer.py --train ../data/yelp/sentiment.train --dev ../data/yelp/sentiment.dev --output ../tmp/sentiment.dev --vocab ../tmp/yelp.vocab --model ../tmp/model
+```
+
+- To test the model, run the following command:
+```bash
+python style_transfer.py --test ../data/yelp/sentiment.test --output ../tmp/sentiment.test --vocab ../tmp/yelp.vocab --model ../tmp/model --load_model true --beam 8
+```
+
+- To download a trained model, run <code>bash download_model.sh</code>, and then run the testing command with <code>--vocab</code> and <code>--model</code> options specifying <code>../model/yelp.vocab</code> and <code>../model/model</code> respectively.
+
+- Check <code>code/options.py</code> for all running options.
+
+<br>
+
+## Dependencies
+Python >= 2.7, TensorFlow 1.3.0
