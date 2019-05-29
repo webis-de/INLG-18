@@ -5,8 +5,7 @@ The code is mainly from Shen's work: "Style Transfer from Non-Parallel Text by C
 
 The only difference is we implemented the beam search algorithm to remove unknown tokens from the generated texts.
 
-Please visit here as well
-https://github.com/shentianxiao/language-style-transfer
+Please [visit](https://github.com/shentianxiao/language-style-transfer) here as well
 
 ## Data Format
 Please name the corpora of two styles by "x.0" and "x.1" respectively, and use "x" to refer to them in options. Each file should consist of one sentence per line with tokens separated by a space.
@@ -19,15 +18,13 @@ Visit [here](https://webis.de/data/webis-bias-flipper-18.html) for more details.
 ## Quick Start
 - To train a model, first create a <code>tmp/</code> folder (where the model and results will be saved), then go to the <code>code/</code> folder and run the following command:
 ```bash
-python style_transfer.py --train ../data/yelp/sentiment.train --dev ../data/yelp/sentiment.dev --output ../tmp/sentiment.dev --vocab ../tmp/yelp.vocab --model ../tmp/model
+python style_transfer.py --train ../data/news/LR+c.trainC --dev ../data/news/LR+c.dev --output ../tmp/LR+c.dev --vocab ../tmp/news+c2.vocab --model ../tmp/model.LR+c_match --min_count 3 --max_epochs 100 --batch_size 24 --beam 10 --learning_rate 0.001
 ```
 
 - To test the model, run the following command:
 ```bash
 python style_transfer.py --test ../data/news/LR+c.test --output ../tmp/LR+c.test --vocab ../tmp/news+c2.vocab --model ../tmp/model.LR+c2 --load_model true --beam 10 
 ```
-
-- To download a trained model, run <code>bash download_model.sh</code>, and then run the testing command with <code>--vocab</code> and <code>--model</code> options specifying <code>../model/yelp.vocab</code> and <code>../model/model</code> respectively.
 
 - Check <code>code/options.py</code> for all running options.
 
