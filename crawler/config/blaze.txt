@@ -1,0 +1,6 @@
+title	h1.page-title;h1.headline
+author	span.author-name;.post-body .post-author__name
+time	time.entry-date;.post-date
+body	.entry-content p;.body-description p
+redirect_404	
+html_404	.tab-styled-headline;.blur-me section-page;.text_404

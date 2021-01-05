@@ -1,0 +1,7 @@
+title	#ra-headers h1
+author	#ra-headers a[rel=author] span
+time	meta[itemprop="datePublished"]
+time_mode	content
+body	article[itemprop="articleBody"] p
+redirect_404	
+html_404	.trb_gdpr_nr

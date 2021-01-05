@@ -1,0 +1,8 @@
+title	h1.headline__title
+author	.author-card__name a;.reuters.wire-byline span
+time	.timestamp__date--published
+body	.entry__text p;.entry-text p
+redirect_404	section/world-news
+redirect_404_url	err_code
+html_404	.four04__title
+accept_cookies_button	.agree

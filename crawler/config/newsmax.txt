@@ -1,0 +1,6 @@
+title	h1[itemprop="headline"]
+author	#artPgHdLnWrapper span[itemprop="author"]
+time	.artPgDate
+body	div[itemprop="articleBody"]
+redirect_404	
+html_404	.Page404Box

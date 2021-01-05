@@ -1,0 +1,7 @@
+title	.story-body h1;.story-body h2;.amp-o-main-content h1;.gallery h1
+author	.author
+time	.story-body .date;.amp-o-main-content time;.gallery div.date
+time_mode	datetime
+body	.story-body__inner p;.main-content p;.gallery-images p
+redirect_404	
+html_404	

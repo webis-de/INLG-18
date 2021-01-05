@@ -1,0 +1,7 @@
+title	h1.entry-title;h1#headline;h1[itemprop="headline"];h1.story-heading
+author	.author .fn;.byline-author;a[rel="author"] span;p[itemtype="http://schema.org/Person"] a
+time	time.dateline;time
+time_mode	datetime
+body	p[itemprop="articleBody"];p.story-body-text;.StoryBodyCompanionColumn p;p.g-body
+redirect_404	
+html_404	h1.css-1wcgiio

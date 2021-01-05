@@ -1,0 +1,6 @@
+title	.story-title a
+author	.story-info .author-byline .author-name a
+time	.story-info .author-date .timestamp
+body	.story-content p
+redirect_404	
+html_404	

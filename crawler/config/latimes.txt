@@ -1,0 +1,7 @@
+title	h2[itemprop="headline"];.pb-f-article-header h1;h1[itemprop="headline"];article .pb-layout-item:first-child h3
+author	.byline a[rel="author"];span[itemprop=name];article .pb-layout-item:first-child a[rel="author"] span
+time	time;article .pb-layout-item:first-child h6
+time_mode	datetime
+body	.pb-f-article-body;div[itemprop="articleBody"]; article .pb-layout-item:first-child .card-content
+redirect_404	
+html_404	

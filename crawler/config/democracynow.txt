@@ -1,0 +1,6 @@
+title	#story_content h1;article.headline h1
+author	
+time	.news_label .date
+body	#story_text p;div[itemprop=articleBody] p
+redirect_404	
+html_404	

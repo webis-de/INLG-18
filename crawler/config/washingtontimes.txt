@@ -1,0 +1,8 @@
+title	h1.page-headline
+author	.meta .byline
+author_split	-;0
+time	.meta .byline
+time_split	-;1
+body	.bigtext p;.article-text p
+redirect_404	communities
+html_404	.c640

@@ -1,0 +1,6 @@
+title	.headline h1
+author	.signature .byline
+time	.Timestamp
+body	.Body .Article p
+redirect_404	
+html_404	

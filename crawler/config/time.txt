@@ -1,0 +1,7 @@
+title	h1.headline;h1.longform-headline;main h1
+author	a.author-name;.longform-bylines a
+time	.published-date
+body	.article.body p;#article-body p
+redirect_404	
+html_404	
+accept_cookies_button	.gdpr-form .btn

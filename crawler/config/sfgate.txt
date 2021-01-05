@@ -1,0 +1,6 @@
+title	h1.entry-title
+author	.byline
+time	.timestamp
+body	.article-body p
+redirect_404	
+html_404	

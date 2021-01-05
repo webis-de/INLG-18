@@ -1,0 +1,6 @@
+title	h1.eza-title
+author	.author;.author-name
+time	time.eza-publish_date
+body	#summary p;.eza-body p
+redirect_404	
+html_404	

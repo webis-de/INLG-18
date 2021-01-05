@@ -1,0 +1,7 @@
+title	header h1
+author	span.author
+time	time[datetime]
+time_mode	datetime
+body	article.blog-post > p
+redirect_404	
+html_404	

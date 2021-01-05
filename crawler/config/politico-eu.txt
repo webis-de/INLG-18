@@ -1,0 +1,6 @@
+title	header h1;
+author	.byline a[rel="author"]
+time	.timestamp time
+body	.story-text p
+redirect_404	
+html_404	#pageError;.error-intro

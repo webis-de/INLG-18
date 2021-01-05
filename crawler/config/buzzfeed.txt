@@ -1,0 +1,7 @@
+title	header h1.buzz-title;.news-article-header h1
+author	.byline a.bold;.news-article-header .news-byline-full__name a
+time	time.buzz-timestamp__time;.news-article-header .news-article-header__timestamps-posted
+time_split	Posted on;1
+body	article .subbuzz-text;.page-content div[data-module="article-wrapper"] p
+redirect_404	
+html_404	

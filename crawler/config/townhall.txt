@@ -1,0 +1,6 @@
+title	#article-header h1.headline
+author	.contributor a
+time	time.meta__time
+body	#article-body p;#article-body
+redirect_404	news
+html_404	.four04_text;#index-list

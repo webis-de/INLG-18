@@ -1,0 +1,7 @@
+title	.article-header h1.hed
+author	meta[name=author]
+time	meta[name=pubdate]
+time_mode	content
+body	.article-main p
+redirect_404	
+html_404	

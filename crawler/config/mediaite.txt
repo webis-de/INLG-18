@@ -1,0 +1,7 @@
+title	#post-heading h3
+author	.dateline a[rel=author]
+time	.dateline
+time_split	|;1
+body	#post-body p
+redirect_404	
+html_404	

@@ -1,0 +1,6 @@
+title	h1[itemprop="headline"];article h1.content__title
+author	span.author
+time	span.time
+body	#article-entry p;article section p
+redirect_404	
+html_404	

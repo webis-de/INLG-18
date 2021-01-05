@@ -1,0 +1,6 @@
+title	.article-text h2
+author	.article-text a.author
+time	.article-text .article-timestamp-published
+body	div[itemprop="articleBody"] p
+redirect_404	
+html_404	

@@ -1,0 +1,7 @@
+title	header .page-title
+author	.entry-meta .author span
+time	.entry-meta time
+time_mode	datetime
+body	div[itemprop="articleBody"] p
+redirect_404	
+html_404	

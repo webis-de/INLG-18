@@ -1,0 +1,6 @@
+title	header .entry-title;h1.entry-title
+author	.entry-content .author a[rel="author"]
+time	.entry-content time.entry-date
+body	.entry-content p
+redirect_404	
+html_404	

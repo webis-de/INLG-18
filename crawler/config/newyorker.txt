@@ -1,0 +1,6 @@
+title	main h1
+author	main a[rel="author"]
+time	main .ArticleTimestamp__timestamp___1klks CurrentArticle__timestamp___3y1Xc
+body	.CurrentArticle__body___QbjaK p
+redirect_404	
+html_404	

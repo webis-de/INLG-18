@@ -1,0 +1,6 @@
+title	h1.page-title; article h1
+author	div[property="schema:author"]
+time	span[property="schema:datePublished"]
+body	.articleBody p;div[property="content:encoded"] p
+redirect_404	
+html_404	

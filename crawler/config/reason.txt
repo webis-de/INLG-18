@@ -1,0 +1,7 @@
+title	header h1.title;header h2.title
+author	.byline [rel=author]
+time	time[datetime]
+time_mode	datetime
+body	.postcontent > p
+redirect_404	
+html_404	

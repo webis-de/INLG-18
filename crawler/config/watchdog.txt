@@ -1,0 +1,7 @@
+title	header[itemprop=headline]
+author	span[itemprop=author]
+time	time[datetime]
+time_mode	datetime
+body	[itemprop=articleBody] > p
+redirect_404	
+html_404	

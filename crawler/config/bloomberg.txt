@@ -1,0 +1,9 @@
+title	.lede-text-v2__hed
+author	.lede-text-v2__byline a[rel="author"]
+time	time[itemprop="datePublished"]
+time_mode	datetime
+body	.body-columns p
+redirect_404	politics
+html_404	center h1
+redirect_robot	#px-captcha
+remove_from_url	?srnd=premium

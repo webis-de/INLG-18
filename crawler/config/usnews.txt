@@ -1,0 +1,6 @@
+title	h1.hero-heading;.content h1
+author	a[href*="topics/author"]
+time	.hero-content-main p span
+body	.article-body-item p;.content p
+redirect_404	
+html_404	

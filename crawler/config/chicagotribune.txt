@@ -1,0 +1,7 @@
+title	h1[itemprop="headline"]
+author	a[itemprop="author"]
+time	time[itemprop="datePublished"]
+time_mode	datetime
+body	div[itemprop="articleBody"] p
+redirect_404	gdpr/chicagotribune.com
+html_404	.trb_gdpr_nr

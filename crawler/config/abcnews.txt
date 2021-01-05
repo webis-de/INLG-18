@@ -1,0 +1,7 @@
+title	.article-header h1;h1.headline
+author	.authors .author;#byline_container .byline
+time	.story-body .date;.amp-o-main-content time
+time_mode	.article-meta .timestamp;.byline_date .date
+body	p[itemprop="articleBody"];#storyText p
+redirect_404	Politics;International;Business;Health;ThisWeek;US
+html_404	

@@ -1,0 +1,6 @@
+title	main h1
+author	main .author
+time	main .article_date
+body	main .article_body p
+redirect_404	
+html_404	

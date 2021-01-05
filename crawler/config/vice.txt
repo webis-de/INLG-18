@@ -1,0 +1,6 @@
+title	h1.article__title
+author	.contributor__link
+time	.contributor__content__date
+body	.article__body p
+redirect_404	
+html_404	

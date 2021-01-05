@@ -1,0 +1,7 @@
+title	h1.hM;.bz:first-child .hs;h1.hS
+author	.jO .jQ;.bz:first-child a[rel="author"];a[rel="author"]
+time	.hQ .jR;.bz:first-child time;time
+time_mode	datetime
+body	.aa.jN p;.bz:first-child .k_ p;article p
+redirect_404	
+html_404	

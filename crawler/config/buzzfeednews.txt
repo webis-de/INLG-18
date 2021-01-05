@@ -1,0 +1,7 @@
+title	header h1
+author	span.news-byline-full__name
+time	.news-article-header__timestamps-posted
+time_split	Posted on;1
+body	.subbuzz-text p
+redirect_404	
+html_404	

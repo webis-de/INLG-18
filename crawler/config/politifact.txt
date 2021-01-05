@@ -1,0 +1,7 @@
+title	h1.article__title
+author	.article__meta a
+time	.article__meta
+time_split	on;1
+body	.article__text > p
+redirect_404	
+html_404	

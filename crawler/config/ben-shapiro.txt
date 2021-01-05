@@ -1,0 +1,6 @@
+title	h1.page-title
+author	.author-information a
+time	time
+body	.field-body p
+redirect_404	
+html_404	

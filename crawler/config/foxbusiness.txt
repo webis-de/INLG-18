@@ -1,0 +1,6 @@
+title	.article-header h1
+author	a[rel="author"];span.source
+time	.article-header time
+body	.article-text p
+redirect_404	
+html_404	.not-found

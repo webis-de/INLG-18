@@ -1,0 +1,6 @@
+title	#article-page h1.post-title
+author	
+time	#article-page .article-duration time
+body	#article-page .main-article-body p
+redirect_404	
+html_404	

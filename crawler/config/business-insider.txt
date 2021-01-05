@@ -1,0 +1,6 @@
+title	h1.post-headline 
+author	.byline-author-name
+time	.byline-timestamp
+body	.post-content p
+redirect_404	
+html_404	

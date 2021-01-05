@@ -1,0 +1,6 @@
+title	meta[itemprop="headline"]
+author	span[itemprop="author"]
+time	time[itemprop="datePublished"]
+body	div[itemprop="articleBody"]
+redirect_404	
+html_404	

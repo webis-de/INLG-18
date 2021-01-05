@@ -1,0 +1,7 @@
+title	h1[itemprop="headline"];.article-header h1.headline;h1.headline;article h1;#page-title
+author	.article-info a;.byline-info .author;.author-byline a
+time	.article-date time;time;#date
+time_mode	datetime
+body	.article-body p;.content-body p;.articleBody p
+redirect_404	
+html_404	.page-404

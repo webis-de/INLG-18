@@ -1,0 +1,6 @@
+title	h1.headline
+author	article .author a
+time	time.meta__time
+body	article .post-content p
+redirect_404	
+html_404	

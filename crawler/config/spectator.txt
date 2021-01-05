@@ -1,0 +1,6 @@
+title	.single-post h2
+author	.meta .author .pf-author a
+time	.results._single-post i
+body	.results._single-post p
+redirect_404	
+html_404	
